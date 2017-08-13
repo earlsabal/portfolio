@@ -43,15 +43,14 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-.bg-primary {
-  background-color:  #F05F40;
-}
+
 .bg-dark {
   background-color: #222222;
   color: white;
 }
 .bg-light {
   background-color: lightgray;
+  color: black;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
