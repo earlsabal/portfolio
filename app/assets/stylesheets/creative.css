@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color:  #F05F40;
+  border-color: black;
   border-width: 3px;
   max-width: 50px;
 }
@@ -289,7 +289,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: white;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -473,4 +473,25 @@ ul.footer-icons {
 
 .text-left {
   text-align: left;
+}
+
+.icon-circle {
+  background-color: black;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+.location {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.phone {
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.database {
+  padding-right: 35px;
+  padding-left: 35px;
 }
