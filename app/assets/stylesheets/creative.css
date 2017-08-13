@@ -495,3 +495,12 @@ ul.footer-icons {
   padding-right: 35px;
   padding-left: 35px;
 }
+
+.footer {
+  height: 5px;
+  margin-top: -5px;
+}
+
+.footer-content{
+  padding-bottom: 5px;
+}
