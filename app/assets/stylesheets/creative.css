@@ -24,7 +24,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #333333;
 }
 a:hover,
 a:focus {
@@ -241,7 +241,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(163, 135, 114, 0.9);
+  background: rgba(63, 63, 63, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -345,8 +345,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color:  #F05F40;
-  border-color:  #F05F40;
+  background-color:  #333333;
+  border-color:  #333333;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -384,11 +384,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color:  #F05F40;
-  border-color:  #F05F40;
+  background-color:  #333333;
+  border-color:  #333333;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #333333;
   background-color: white;
 }
 .btn {
