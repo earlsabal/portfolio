@@ -1,0 +1,35 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">Earl Sabal</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#resume">Resume</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <% if admin_signed_in? %>
+          <li>
+            <%= link_to "Logout", destroy_admin_session_path, :method => :delete %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
