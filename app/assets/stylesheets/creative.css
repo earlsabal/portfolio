@@ -510,5 +510,5 @@ ul.footer-icons {
   height: 25%;
   width: 25%;
   border-radius: 50%;
-  border: 3px outset white;
+  border: 3px solid black;
 }
