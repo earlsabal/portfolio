@@ -501,6 +501,14 @@ ul.footer-icons {
   margin-top: -5px;
 }
 
-.footer-content{
+.footer-content {
   padding-bottom: 5px;
+}
+
+.profile-pic {
+  margin: 50px;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  border: 3px outset white;
 }
