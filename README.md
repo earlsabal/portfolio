@@ -22,7 +22,8 @@ Provides an image and a description about me.
 ![](screenshots/contact.png?raw=true)
 Contains a button to download my resume, displays my contact information and has a footer with icons leading to my Linkedin and Github pages.
 
-Technologies we used were: 
+## Tech Stack
+Technologies used were: 
 - Ruby on Rails
 - HTML & CSS
 - Bootstrap
