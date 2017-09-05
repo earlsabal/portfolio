@@ -5,7 +5,7 @@ class PagesController < ApplicationController
 	end
 	
 	def download_resume
-		send_file "#{Rails.root}/EarlSabalResume.pdf", 
+		send_file "#{Rails.root}/EarlGSabalResume.pdf", 
 							type: "application/pdf",
 							x_sendfile: true
 	end
