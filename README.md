@@ -28,3 +28,5 @@ Technologies used were:
 - HTML & CSS
 - Bootstrap
 - Heroku
+
+Last updated 1-17-2020
